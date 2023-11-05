@@ -1,0 +1,893 @@
+00:04.321	ID:2	Application is running!
+00:04.324	ID:2	Radio is on
+00:04.433	ID:4	Application is running!
+00:04.436	ID:4	Radio is on
+00:04.467	ID:1	Application is running!
+00:04.470	ID:1	Radio is on
+00:04.471	ID:1	Parent starts sending pairing message
+00:04.984	ID:3	Application is running!
+00:04.987	ID:3	Radio is on
+00:04.988	ID:3	Parent starts sending pairing message
+00:09.354	ID:1	Creatng a packet to be sent
+00:09.356	ID:1	Trying to pair
+00:09.357	ID:1	Payload
+00:09.358	ID:1	Key: BF6tb8n98uJO68dBD2d3
+00:09.365	ID:1	Packet is sent
+00:09.365	ID:4	Received a message with a wrong key
+00:09.366	ID:1	Was it broadcasted? true
+00:09.366	ID:4	MATCHED?: false
+00:09.366	ID:1	ACK is received
+00:09.871	ID:3	Creatng a packet to be sent
+00:09.874	ID:3	Trying to pair
+00:09.874	ID:3	Payload
+00:09.875	ID:3	Key: AJnk2819yBSAMOWheeeO
+00:09.888	ID:3	Packet is sent
+00:09.889	ID:3	Was it broadcasted? true
+00:09.890	ID:3	ACK is NOT received
+00:14.237	ID:1	Creatng a packet to be sent
+00:14.239	ID:1	Trying to pair
+00:14.239	ID:1	Payload
+00:14.241	ID:1	Key: BF6tb8n98uJO68dBD2d3
+00:14.247	ID:2	Received a message with a valid key
+00:14.247	ID:4	Received a message with a wrong key
+00:14.248	ID:4	MATCHED?: false
+00:14.249	ID:2	Key: BF6tb8n98uJO68dBD2d3
+00:14.251	ID:2	Child's bracelet saves the folowing parent's address: 1
+00:14.252	ID:2	Transmitting a response (Unicast)
+00:14.253	ID:1	Packet is sent
+00:14.254	ID:1	Was it broadcasted? true
+00:14.254	ID:2	I am trying to send a RESPONSE to parent (Unicast) 
+00:14.255	ID:1	ACK is NOT received
+00:14.258	ID:2	Node 2 has sent send RESP to node 1
+00:14.266	ID:2	Packet is sent
+00:14.267	ID:1	Received a message with an OK state
+00:14.268	ID:2	Was it broadcasted? false
+00:14.268	ID:1	State: 1
+00:14.268	ID:2	ACK is received
+00:14.269	ID:1	Pairing is fully complete
+00:14.270	ID:1	Stopping pairing timer
+00:14.754	ID:3	Creatng a packet to be sent
+00:14.756	ID:3	Trying to pair
+00:14.757	ID:3	Payload
+00:14.758	ID:3	Key: AJnk2819yBSAMOWheeeO
+00:14.768	ID:4	Received a message with a valid key
+00:14.769	ID:4	Key: AJnk2819yBSAMOWheeeO
+00:14.772	ID:4	Child's bracelet saves the folowing parent's address: 3
+00:14.773	ID:4	Transmitting a response (Unicast)
+00:14.773	ID:3	Packet is sent
+00:14.774	ID:3	Was it broadcasted? true
+00:14.775	ID:4	I am trying to send a RESPONSE to parent (Unicast) 
+00:14.775	ID:3	ACK is NOT received
+00:14.778	ID:4	Node 4 has sent send RESP to node 3
+00:14.787	ID:4	Packet is sent
+00:14.788	ID:3	Received a message with an OK state
+00:14.788	ID:4	Was it broadcasted? false
+00:14.788	ID:3	State: 1
+00:14.789	ID:4	ACK is received
+00:14.789	ID:3	Pairing is fully complete
+00:14.790	ID:3	Stopping pairing timer
+00:24.024	ID:2	Creatng a child's data
+00:24.026	ID:2	Node 2 is trying to send INFO to node 1
+00:24.027	ID:2	Payload
+00:24.028	ID:2	X: -20269
+00:24.029	ID:2	Y: 1677
+00:24.030	ID:2	Status: 20
+00:24.039	ID:2	Packet is sent
+00:24.039	ID:1	Received a message from a child
+00:24.040	ID:2	Was it broadcasted? false
+00:24.040	ID:1	Was it broadcasted? false
+00:24.040	ID:1	Payload
+00:24.040	ID:2	ACK is received
+00:24.041	ID:1	X: -20269
+00:24.042	ID:1	Y: 1677
+00:24.043	ID:1	Status: WALKING
+00:24.544	ID:4	Creatng a child's data
+00:24.546	ID:4	Node 4 is trying to send INFO to node 3
+00:24.548	ID:4	Payload
+00:24.548	ID:4	X: 9909
+00:24.549	ID:4	Y: 24640
+00:24.550	ID:4	Status: 10
+00:24.556	ID:4	Packet is sent
+00:24.556	ID:3	Received a message from a child
+00:24.557	ID:4	Was it broadcasted? false
+00:24.557	ID:3	Was it broadcasted? false
+00:24.558	ID:3	Payload
+00:24.558	ID:4	ACK is received
+00:24.559	ID:3	X: 9909
+00:24.559	ID:3	Y: 24640
+00:24.560	ID:3	Status: STANDING
+00:33.789	ID:2	Creatng a child's data
+00:33.791	ID:2	Node 2 is trying to send INFO to node 1
+00:33.793	ID:2	Payload
+00:33.794	ID:2	X: -28584
+00:33.795	ID:2	Y: -21368
+00:33.797	ID:2	Status: 30
+00:33.798	ID:1	Received a message from a child
+00:33.798	ID:2	Packet is sent
+00:33.799	ID:1	Was it broadcasted? false
+00:33.799	ID:2	Was it broadcasted? false
+00:33.799	ID:1	Payload
+00:33.799	ID:2	ACK is received
+00:33.800	ID:1	X: -28584
+00:33.801	ID:1	Y: -21368
+00:33.802	ID:1	Status: RUNNING
+00:34.310	ID:4	Creatng a child's data
+00:34.312	ID:4	Node 4 is trying to send INFO to node 3
+00:34.313	ID:4	Payload
+00:34.314	ID:4	X: 17897
+00:34.316	ID:4	Y: -13768
+00:34.317	ID:4	Status: 20
+00:34.319	ID:4	Packet is sent
+00:34.319	ID:3	Received a message from a child
+00:34.320	ID:4	Was it broadcasted? false
+00:34.320	ID:3	Was it broadcasted? false
+00:34.320	ID:3	Payload
+00:34.320	ID:4	ACK is received
+00:34.321	ID:3	X: 17897
+00:34.322	ID:3	Y: -13768
+00:34.323	ID:3	Status: WALKING
+00:43.555	ID:2	Creatng a child's data
+00:43.557	ID:2	Node 2 is trying to send INFO to node 1
+00:43.558	ID:2	Payload
+00:43.559	ID:2	X: 3305
+00:43.560	ID:2	Y: -13879
+00:43.561	ID:2	Status: 30
+00:43.571	ID:2	Packet is sent
+00:43.571	ID:1	Received a message from a child
+00:43.572	ID:2	Was it broadcasted? false
+00:43.573	ID:1	Was it broadcasted? false
+00:43.573	ID:1	Payload
+00:43.573	ID:2	ACK is received
+00:43.574	ID:1	X: 3305
+00:43.575	ID:1	Y: -13879
+00:43.575	ID:1	Status: RUNNING
+00:44.075	ID:4	Creatng a child's data
+00:44.078	ID:4	Node 4 is trying to send INFO to node 3
+00:44.079	ID:4	Payload
+00:44.080	ID:4	X: 5509
+00:44.080	ID:4	Y: -1287
+00:44.081	ID:4	Status: 10
+00:44.088	ID:4	Packet is sent
+00:44.088	ID:3	Received a message from a child
+00:44.089	ID:4	Was it broadcasted? false
+00:44.090	ID:3	Was it broadcasted? false
+00:44.090	ID:3	Payload
+00:44.090	ID:4	ACK is received
+00:44.091	ID:3	X: 5509
+00:44.092	ID:3	Y: -1287
+00:44.092	ID:3	Status: STANDING
+00:53.321	ID:2	Creatng a child's data
+00:53.323	ID:2	Node 2 is trying to send INFO to node 1
+00:53.324	ID:2	Payload
+00:53.325	ID:2	X: -27738
+00:53.326	ID:2	Y: 32281
+00:53.327	ID:2	Status: 20
+00:53.332	ID:2	Packet is sent
+00:53.332	ID:1	Received a message from a child
+00:53.333	ID:2	Was it broadcasted? false
+00:53.333	ID:1	Was it broadcasted? false
+00:53.334	ID:1	Payload
+00:53.334	ID:2	ACK is received
+00:53.335	ID:1	X: -27738
+00:53.335	ID:1	Y: 32281
+00:53.336	ID:1	Status: WALKING
+00:53.841	ID:4	Creatng a child's data
+00:53.843	ID:4	Node 4 is trying to send INFO to node 3
+00:53.845	ID:4	Payload
+00:53.845	ID:4	X: 19306
+00:53.846	ID:4	Y: 10111
+00:53.847	ID:4	Status: 10
+00:53.851	ID:4	Packet is sent
+00:53.852	ID:3	Received a message from a child
+00:53.853	ID:4	Was it broadcasted? false
+00:53.853	ID:3	Was it broadcasted? false
+00:53.853	ID:3	Payload
+00:53.853	ID:4	ACK is received
+00:53.854	ID:3	X: 19306
+00:53.855	ID:3	Y: 10111
+00:53.855	ID:3	Status: STANDING
+01:03.086	ID:2	Creatng a child's data
+01:03.088	ID:2	Node 2 is trying to send INFO to node 1
+01:03.090	ID:2	Payload
+01:03.091	ID:2	X: -15565
+01:03.092	ID:2	Y: 19145
+01:03.092	ID:2	Status: 30
+01:03.097	ID:2	Packet is sent
+01:03.098	ID:1	Received a message from a child
+01:03.099	ID:2	Was it broadcasted? false
+01:03.099	ID:1	Was it broadcasted? false
+01:03.099	ID:1	Payload
+01:03.099	ID:2	ACK is received
+01:03.100	ID:1	X: -15565
+01:03.101	ID:1	Y: 19145
+01:03.102	ID:1	Status: RUNNING
+01:03.607	ID:4	Creatng a child's data
+01:03.609	ID:4	Node 4 is trying to send INFO to node 3
+01:03.610	ID:4	Payload
+01:03.611	ID:4	X: 17749
+01:03.612	ID:4	Y: -11783
+01:03.613	ID:4	Status: 20
+01:03.621	ID:4	Packet is sent
+01:03.621	ID:3	Received a message from a child
+01:03.622	ID:4	Was it broadcasted? false
+01:03.622	ID:3	Was it broadcasted? false
+01:03.622	ID:3	Payload
+01:03.622	ID:4	ACK is received
+01:03.623	ID:3	X: 17749
+01:03.624	ID:3	Y: -11783
+01:03.625	ID:3	Status: WALKING
+01:12.852	ID:2	Creatng a child's data
+01:12.854	ID:2	Node 2 is trying to send INFO to node 1
+01:12.855	ID:2	Payload
+01:12.856	ID:2	X: -32459
+01:12.857	ID:2	Y: -15736
+01:12.858	ID:2	Status: 20
+01:12.866	ID:2	Packet is sent
+01:12.866	ID:1	Received a message from a child
+01:12.867	ID:2	Was it broadcasted? false
+01:12.867	ID:1	Was it broadcasted? false
+01:12.868	ID:1	Payload
+01:12.868	ID:2	ACK is received
+01:12.869	ID:1	X: -32459
+01:12.870	ID:1	Y: -15736
+01:12.870	ID:1	Status: WALKING
+01:13.372	ID:4	Creatng a child's data
+01:13.374	ID:4	Node 4 is trying to send INFO to node 3
+01:13.376	ID:4	Payload
+01:13.377	ID:4	X: -10408
+01:13.378	ID:4	Y: -4381
+01:13.378	ID:4	Status: 30
+01:13.388	ID:4	Packet is sent
+01:13.388	ID:3	Received a message from a child
+01:13.389	ID:4	Was it broadcasted? false
+01:13.389	ID:3	Was it broadcasted? false
+01:13.390	ID:3	Payload
+01:13.390	ID:4	ACK is received
+01:13.390	ID:3	X: -10408
+01:13.391	ID:3	Y: -4381
+01:13.392	ID:3	Status: RUNNING
+01:22.618	ID:2	Creatng a child's data
+01:22.620	ID:2	Node 2 is trying to send INFO to node 1
+01:22.621	ID:2	Payload
+01:22.622	ID:2	X: 13536
+01:22.623	ID:2	Y: -31679
+01:22.624	ID:2	Status: 20
+01:22.632	ID:2	Packet is sent
+01:22.632	ID:1	Received a message from a child
+01:22.633	ID:2	Was it broadcasted? false
+01:22.633	ID:1	Was it broadcasted? false
+01:22.633	ID:1	Payload
+01:22.633	ID:2	ACK is received
+01:22.634	ID:1	X: 13536
+01:22.635	ID:1	Y: -31679
+01:22.636	ID:1	Status: WALKING
+01:23.138	ID:4	Creatng a child's data
+01:23.140	ID:4	Node 4 is trying to send INFO to node 3
+01:23.141	ID:4	Payload
+01:23.142	ID:4	X: 715
+01:23.143	ID:4	Y: -30953
+01:23.144	ID:4	Status: 20
+01:23.152	ID:4	Packet is sent
+01:23.152	ID:3	Received a message from a child
+01:23.153	ID:4	Was it broadcasted? false
+01:23.154	ID:3	Was it broadcasted? false
+01:23.154	ID:3	Payload
+01:23.154	ID:4	ACK is received
+01:23.155	ID:3	X: 715
+01:23.155	ID:3	Y: -30953
+01:23.156	ID:3	Status: WALKING
+01:32.383	ID:2	Creatng a child's data
+01:32.385	ID:2	Node 2 is trying to send INFO to node 1
+01:32.387	ID:2	Payload
+01:32.388	ID:2	X: -10473
+01:32.388	ID:2	Y: 11725
+01:32.389	ID:2	Status: 30
+01:32.398	ID:2	Packet is sent
+01:32.399	ID:1	Received a message from a child
+01:32.400	ID:2	Was it broadcasted? false
+01:32.400	ID:1	Was it broadcasted? false
+01:32.400	ID:1	Payload
+01:32.400	ID:2	ACK is received
+01:32.401	ID:1	X: -10473
+01:32.402	ID:1	Y: 11725
+01:32.403	ID:1	Status: RUNNING
+01:32.904	ID:4	Creatng a child's data
+01:32.906	ID:4	Node 4 is trying to send INFO to node 3
+01:32.907	ID:4	Payload
+01:32.908	ID:4	X: 4390
+01:32.909	ID:4	Y: -2303
+01:32.910	ID:4	Status: 20
+01:32.912	ID:4	Packet is sent
+01:32.912	ID:3	Received a message from a child
+01:32.913	ID:4	Was it broadcasted? false
+01:32.913	ID:3	Was it broadcasted? false
+01:32.913	ID:3	Payload
+01:32.914	ID:4	ACK is received
+01:32.914	ID:3	X: 4390
+01:32.915	ID:3	Y: -2303
+01:32.916	ID:3	Status: WALKING
+01:42.149	ID:2	Creatng a child's data
+01:42.151	ID:2	Node 2 is trying to send INFO to node 1
+01:42.152	ID:2	Payload
+01:42.153	ID:2	X: -3175
+01:42.154	ID:2	Y: -13528
+01:42.155	ID:2	Status: 20
+01:42.162	ID:2	Packet is sent
+01:42.162	ID:1	Received a message from a child
+01:42.163	ID:2	Was it broadcasted? false
+01:42.163	ID:1	Was it broadcasted? false
+01:42.164	ID:1	Payload
+01:42.164	ID:2	ACK is received
+01:42.164	ID:1	X: -3175
+01:42.165	ID:1	Y: -13528
+01:42.166	ID:1	Status: WALKING
+01:42.669	ID:4	Creatng a child's data
+01:42.671	ID:4	Node 4 is trying to send INFO to node 3
+01:42.673	ID:4	Payload
+01:42.674	ID:4	X: -27137
+01:42.675	ID:4	Y: -22547
+01:42.675	ID:4	Status: 20
+01:42.680	ID:4	Packet is sent
+01:42.680	ID:3	Received a message from a child
+01:42.681	ID:4	Was it broadcasted? false
+01:42.681	ID:3	Was it broadcasted? false
+01:42.681	ID:3	Payload
+01:42.681	ID:4	ACK is received
+01:42.682	ID:3	X: -27137
+01:42.683	ID:3	Y: -22547
+01:42.684	ID:3	Status: WALKING
+01:51.914	ID:2	Creatng a child's data
+01:51.916	ID:2	Node 2 is trying to send INFO to node 1
+01:51.918	ID:2	Payload
+01:51.919	ID:2	X: 11561
+01:51.920	ID:2	Y: -3989
+01:51.920	ID:2	Status: 10
+01:51.926	ID:2	Packet is sent
+01:51.927	ID:1	Received a message from a child
+01:51.928	ID:2	Was it broadcasted? false
+01:51.928	ID:1	Was it broadcasted? false
+01:51.928	ID:1	Payload
+01:51.928	ID:2	ACK is received
+01:51.929	ID:1	X: 11561
+01:51.930	ID:1	Y: -3989
+01:51.930	ID:1	Status: STANDING
+01:52.435	ID:4	Creatng a child's data
+01:52.437	ID:4	Node 4 is trying to send INFO to node 3
+01:52.438	ID:4	Payload
+01:52.439	ID:4	X: 19268
+01:52.440	ID:4	Y: -28493
+01:52.441	ID:4	Status: 20
+01:52.451	ID:4	Packet is sent
+01:52.451	ID:3	Received a message from a child
+01:52.452	ID:4	Was it broadcasted? false
+01:52.452	ID:3	Was it broadcasted? false
+01:52.452	ID:3	Payload
+01:52.452	ID:4	ACK is received
+01:52.453	ID:3	X: 19268
+01:52.454	ID:3	Y: -28493
+01:52.455	ID:3	Status: WALKING
+02:01.680	ID:2	Creatng a child's data
+02:01.682	ID:2	Node 2 is trying to send INFO to node 1
+02:01.683	ID:2	Payload
+02:01.684	ID:2	X: -24686
+02:01.685	ID:2	Y: 26741
+02:01.686	ID:2	Status: 30
+02:01.692	ID:2	Packet is sent
+02:01.692	ID:1	Received a message from a child
+02:01.693	ID:2	Was it broadcasted? false
+02:01.693	ID:1	Was it broadcasted? false
+02:01.693	ID:1	Payload
+02:01.693	ID:2	ACK is received
+02:01.694	ID:1	X: -24686
+02:01.695	ID:1	Y: 26741
+02:01.696	ID:1	Status: RUNNING
+02:02.200	ID:4	Creatng a child's data
+02:02.203	ID:4	Node 4 is trying to send INFO to node 3
+02:02.204	ID:4	Payload
+02:02.205	ID:4	X: 2548
+02:02.206	ID:4	Y: -20968
+02:02.206	ID:4	Status: 40
+02:02.215	ID:4	Packet is sent
+02:02.216	ID:3	Received a message from a child
+02:02.217	ID:4	Was it broadcasted? false
+02:02.217	ID:3	Was it broadcasted? false
+02:02.217	ID:3	Payload
+02:02.217	ID:4	ACK is received
+02:02.218	ID:3	X: 2548
+02:02.219	ID:3	Y: -20968
+02:02.219	ID:3	Status: FALLING
+02:02.221	ID:3	THE CHILD HAS FALLEN. COORDINATES:
+02:02.222	ID:3	X: 2548; Y: -20968
+02:02.223	ID:3	HELP IS NEEDED!!!
+02:11.446	ID:2	Creatng a child's data
+02:11.448	ID:2	Node 2 is trying to send INFO to node 1
+02:11.449	ID:2	Payload
+02:11.450	ID:2	X: 20515
+02:11.451	ID:2	Y: 14373
+02:11.452	ID:2	Status: 20
+02:11.458	ID:2	Packet is sent
+02:11.459	ID:1	Received a message from a child
+02:11.460	ID:2	Was it broadcasted? false
+02:11.460	ID:1	Was it broadcasted? false
+02:11.460	ID:1	Payload
+02:11.460	ID:2	ACK is received
+02:11.461	ID:1	X: 20515
+02:11.462	ID:1	Y: 14373
+02:11.462	ID:1	Status: WALKING
+02:11.966	ID:4	Creatng a child's data
+02:11.968	ID:4	Node 4 is trying to send INFO to node 3
+02:11.970	ID:4	Payload
+02:11.970	ID:4	X: -9499
+02:11.971	ID:4	Y: 2111
+02:11.972	ID:4	Status: 40
+02:11.983	ID:4	Packet is sent
+02:11.984	ID:4	Was it broadcasted? false
+02:11.985	ID:4	ACK is NOT received
+02:21.211	ID:2	Creatng a child's data
+02:21.213	ID:2	Node 2 is trying to send INFO to node 1
+02:21.215	ID:2	Payload
+02:21.215	ID:2	X: -864
+02:21.216	ID:2	Y: -32595
+02:21.217	ID:2	Status: 30
+02:21.224	ID:2	Packet is sent
+02:21.224	ID:1	Received a message from a child
+02:21.225	ID:2	Was it broadcasted? false
+02:21.226	ID:1	Was it broadcasted? false
+02:21.226	ID:1	Payload
+02:21.226	ID:2	ACK is received
+02:21.227	ID:1	X: -864
+02:21.228	ID:1	Y: -32595
+02:21.228	ID:1	Status: RUNNING
+02:21.732	ID:4	Creatng a child's data
+02:21.734	ID:4	Node 4 is trying to send INFO to node 3
+02:21.735	ID:4	Payload
+02:21.736	ID:4	X: -23285
+02:21.737	ID:4	Y: -32480
+02:21.738	ID:4	Status: 10
+02:21.751	ID:4	Packet is sent
+02:21.752	ID:4	Was it broadcasted? false
+02:21.753	ID:4	ACK is NOT received
+02:30.977	ID:2	Creatng a child's data
+02:30.979	ID:2	Node 2 is trying to send INFO to node 1
+02:30.980	ID:2	Payload
+02:30.981	ID:2	X: 28968
+02:30.982	ID:2	Y: 12093
+02:30.983	ID:2	Status: 10
+02:30.992	ID:2	Packet is sent
+02:30.992	ID:1	Received a message from a child
+02:30.993	ID:2	Was it broadcasted? false
+02:30.994	ID:1	Was it broadcasted? false
+02:30.994	ID:1	Payload
+02:30.994	ID:2	ACK is received
+02:30.995	ID:1	X: 28968
+02:30.996	ID:1	Y: 12093
+02:30.996	ID:1	Status: STANDING
+02:31.497	ID:4	Creatng a child's data
+02:31.499	ID:4	Node 4 is trying to send INFO to node 3
+02:31.501	ID:4	Payload
+02:31.502	ID:4	X: -17255
+02:31.503	ID:4	Y: -1691
+02:31.503	ID:4	Status: 10
+02:31.517	ID:4	Packet is sent
+02:31.519	ID:4	Was it broadcasted? false
+02:31.519	ID:4	ACK is NOT received
+02:40.743	ID:2	Creatng a child's data
+02:40.745	ID:2	Node 2 is trying to send INFO to node 1
+02:40.746	ID:2	Payload
+02:40.747	ID:2	X: 13342
+02:40.748	ID:2	Y: -13552
+02:40.749	ID:2	Status: 10
+02:40.757	ID:2	Packet is sent
+02:40.757	ID:1	Received a message from a child
+02:40.758	ID:2	Was it broadcasted? false
+02:40.758	ID:1	Was it broadcasted? false
+02:40.758	ID:1	Payload
+02:40.758	ID:2	ACK is received
+02:40.759	ID:1	X: 13342
+02:40.760	ID:1	Y: -13552
+02:40.761	ID:1	Status: STANDING
+02:41.263	ID:4	Creatng a child's data
+02:41.265	ID:4	Node 4 is trying to send INFO to node 3
+02:41.266	ID:4	Payload
+02:41.267	ID:4	X: 392
+02:41.268	ID:4	Y: -22586
+02:41.269	ID:4	Status: 20
+02:41.283	ID:4	Packet is sent
+02:41.284	ID:4	Was it broadcasted? false
+02:41.285	ID:4	ACK is NOT received
+02:50.508	ID:2	Creatng a child's data
+02:50.510	ID:2	Node 2 is trying to send INFO to node 1
+02:50.512	ID:2	Payload
+02:50.513	ID:2	X: -24993
+02:50.514	ID:2	Y: -28496
+02:50.515	ID:2	Status: 10
+02:50.517	ID:2	Packet is sent
+02:50.517	ID:1	Received a message from a child
+02:50.518	ID:2	Was it broadcasted? false
+02:50.518	ID:1	Was it broadcasted? false
+02:50.518	ID:1	Payload
+02:50.518	ID:2	ACK is received
+02:50.519	ID:1	X: -24993
+02:50.520	ID:1	Y: -28496
+02:50.521	ID:1	Status: STANDING
+02:51.029	ID:4	Creatng a child's data
+02:51.031	ID:4	Node 4 is trying to send INFO to node 3
+02:51.032	ID:4	Payload
+02:51.033	ID:4	X: 2036
+02:51.034	ID:4	Y: 18043
+02:51.034	ID:4	Status: 10
+02:51.049	ID:4	Packet is sent
+02:51.051	ID:4	Was it broadcasted? false
+02:51.051	ID:4	ACK is NOT received
+03:00.274	ID:2	Creatng a child's data
+03:00.276	ID:2	Node 2 is trying to send INFO to node 1
+03:00.277	ID:2	Payload
+03:00.278	ID:2	X: -7600
+03:00.279	ID:2	Y: 4563
+03:00.280	ID:2	Status: 10
+03:00.286	ID:2	Packet is sent
+03:00.286	ID:1	Received a message from a child
+03:00.287	ID:2	Was it broadcasted? false
+03:00.288	ID:1	Was it broadcasted? false
+03:00.288	ID:1	Payload
+03:00.288	ID:2	ACK is received
+03:00.289	ID:1	X: -7600
+03:00.289	ID:1	Y: 4563
+03:00.290	ID:1	Status: STANDING
+03:00.794	ID:4	Creatng a child's data
+03:00.796	ID:4	Node 4 is trying to send INFO to node 3
+03:00.798	ID:4	Payload
+03:00.798	ID:4	X: 9179
+03:00.799	ID:4	Y: 7606
+03:00.800	ID:4	Status: 10
+03:00.816	ID:4	Packet is sent
+03:00.817	ID:4	Was it broadcasted? false
+03:00.818	ID:4	ACK is NOT received
+03:00.818	ID:3	THE CHILD IS MISSIMG. LAST COORDINATES RECEIVED:
+03:00.820	ID:3	X: 2548; Y: -20968
+03:00.821	ID:3	WHERE IS BILLY?!?!
+03:10.039	ID:2	Creatng a child's data
+03:10.041	ID:2	Node 2 is trying to send INFO to node 1
+03:10.043	ID:2	Payload
+03:10.044	ID:2	X: -11201
+03:10.045	ID:2	Y: -32097
+03:10.045	ID:2	Status: 10
+03:10.053	ID:2	Packet is sent
+03:10.053	ID:1	Received a message from a child
+03:10.054	ID:2	Was it broadcasted? false
+03:10.055	ID:1	Was it broadcasted? false
+03:10.055	ID:1	Payload
+03:10.055	ID:2	ACK is received
+03:10.056	ID:1	X: -11201
+03:10.057	ID:1	Y: -32097
+03:10.057	ID:1	Status: STANDING
+03:10.560	ID:4	Creatng a child's data
+03:10.562	ID:4	Node 4 is trying to send INFO to node 3
+03:10.563	ID:4	Payload
+03:10.564	ID:4	X: 3177
+03:10.565	ID:4	Y: -9804
+03:10.566	ID:4	Status: 20
+03:10.571	ID:4	Packet is sent
+03:10.571	ID:3	Received a message from a child
+03:10.572	ID:4	Was it broadcasted? false
+03:10.572	ID:3	Was it broadcasted? false
+03:10.572	ID:3	Payload
+03:10.572	ID:4	ACK is received
+03:10.573	ID:3	X: 3177
+03:10.574	ID:3	Y: -9804
+03:10.574	ID:3	Status: WALKING
+03:19.805	ID:2	Creatng a child's data
+03:19.807	ID:2	Node 2 is trying to send INFO to node 1
+03:19.808	ID:2	Payload
+03:19.809	ID:2	X: -5911
+03:19.810	ID:2	Y: 18860
+03:19.811	ID:2	Status: 30
+03:19.825	ID:2	Packet is sent
+03:19.827	ID:2	Was it broadcasted? false
+03:19.827	ID:2	ACK is NOT received
+03:20.325	ID:4	Creatng a child's data
+03:20.328	ID:4	Node 4 is trying to send INFO to node 3
+03:20.329	ID:4	Payload
+03:20.330	ID:4	X: -9851
+03:20.331	ID:4	Y: -12257
+03:20.331	ID:4	Status: 30
+03:20.341	ID:4	Packet is sent
+03:20.341	ID:3	Received a message from a child
+03:20.342	ID:4	Was it broadcasted? false
+03:20.343	ID:3	Was it broadcasted? false
+03:20.343	ID:3	Payload
+03:20.343	ID:4	ACK is received
+03:20.344	ID:3	X: -9851
+03:20.345	ID:3	Y: -12257
+03:20.345	ID:3	Status: RUNNING
+03:29.571	ID:2	Creatng a child's data
+03:29.573	ID:2	Node 2 is trying to send INFO to node 1
+03:29.574	ID:2	Payload
+03:29.575	ID:2	X: 29880
+03:29.576	ID:2	Y: -6683
+03:29.577	ID:2	Status: 20
+03:29.593	ID:2	Packet is sent
+03:29.594	ID:2	Was it broadcasted? false
+03:29.595	ID:2	ACK is NOT received
+03:30.091	ID:4	Creatng a child's data
+03:30.093	ID:4	Node 4 is trying to send INFO to node 3
+03:30.095	ID:4	Payload
+03:30.095	ID:4	X: -15736
+03:30.096	ID:4	Y: 32552
+03:30.097	ID:4	Status: 30
+03:30.108	ID:4	Packet is sent
+03:30.108	ID:3	Received a message from a child
+03:30.109	ID:4	Was it broadcasted? false
+03:30.109	ID:3	Was it broadcasted? false
+03:30.109	ID:3	Payload
+03:30.109	ID:4	ACK is received
+03:30.110	ID:3	X: -15736
+03:30.111	ID:3	Y: 32552
+03:30.112	ID:3	Status: RUNNING
+03:39.336	ID:2	Creatng a child's data
+03:39.338	ID:2	Node 2 is trying to send INFO to node 1
+03:39.340	ID:2	Payload
+03:39.341	ID:2	X: -5382
+03:39.342	ID:2	Y: -9273
+03:39.343	ID:2	Status: 20
+03:39.351	ID:2	Packet is sent
+03:39.352	ID:2	Was it broadcasted? false
+03:39.353	ID:2	ACK is NOT received
+03:39.857	ID:4	Creatng a child's data
+03:39.859	ID:4	Node 4 is trying to send INFO to node 3
+03:39.860	ID:4	Payload
+03:39.861	ID:4	X: -8970
+03:39.862	ID:4	Y: -15455
+03:39.863	ID:4	Status: 10
+03:39.873	ID:4	Packet is sent
+03:39.873	ID:3	Received a message from a child
+03:39.874	ID:4	Was it broadcasted? false
+03:39.874	ID:3	Was it broadcasted? false
+03:39.875	ID:3	Payload
+03:39.875	ID:4	ACK is received
+03:39.876	ID:3	X: -8970
+03:39.876	ID:3	Y: -15455
+03:39.877	ID:3	Status: STANDING
+03:49.102	ID:2	Creatng a child's data
+03:49.104	ID:2	Node 2 is trying to send INFO to node 1
+03:49.105	ID:2	Payload
+03:49.106	ID:2	X: -23846
+03:49.107	ID:2	Y: -12147
+03:49.108	ID:2	Status: 20
+03:49.120	ID:2	Packet is sent
+03:49.122	ID:2	Was it broadcasted? false
+03:49.122	ID:2	ACK is NOT received
+03:49.622	ID:4	Creatng a child's data
+03:49.624	ID:4	Node 4 is trying to send INFO to node 3
+03:49.626	ID:4	Payload
+03:49.627	ID:4	X: 25794
+03:49.627	ID:4	Y: 1600
+03:49.628	ID:4	Status: 30
+03:49.637	ID:4	Packet is sent
+03:49.637	ID:3	Received a message from a child
+03:49.638	ID:4	Was it broadcasted? false
+03:49.639	ID:3	Was it broadcasted? false
+03:49.639	ID:3	Payload
+03:49.639	ID:4	ACK is received
+03:49.640	ID:3	X: 25794
+03:49.641	ID:3	Y: 1600
+03:49.641	ID:3	Status: RUNNING
+03:58.868	ID:2	Creatng a child's data
+03:58.870	ID:2	Node 2 is trying to send INFO to node 1
+03:58.871	ID:2	Payload
+03:58.872	ID:2	X: 13296
+03:58.873	ID:2	Y: -700
+03:58.873	ID:2	Status: 30
+03:58.889	ID:2	Packet is sent
+03:58.891	ID:2	Was it broadcasted? false
+03:58.891	ID:2	ACK is NOT received
+03:59.388	ID:4	Creatng a child's data
+03:59.390	ID:4	Node 4 is trying to send INFO to node 3
+03:59.391	ID:4	Payload
+03:59.392	ID:4	X: -21530
+03:59.393	ID:4	Y: -23011
+03:59.394	ID:4	Status: 20
+03:59.400	ID:4	Packet is sent
+03:59.400	ID:3	Received a message from a child
+03:59.401	ID:4	Was it broadcasted? false
+03:59.401	ID:3	Was it broadcasted? false
+03:59.402	ID:3	Payload
+03:59.402	ID:4	ACK is received
+03:59.403	ID:3	X: -21530
+03:59.403	ID:3	Y: -23011
+03:59.404	ID:3	Status: WALKING
+04:08.633	ID:2	Creatng a child's data
+04:08.635	ID:2	Node 2 is trying to send INFO to node 1
+04:08.637	ID:2	Payload
+04:08.637	ID:2	X: -9305
+04:08.638	ID:2	Y: -11167
+04:08.639	ID:2	Status: 10
+04:08.653	ID:1	THE CHILD IS MISSIMG. LAST COORDINATES RECEIVED:
+04:08.654	ID:2	Packet is sent
+04:08.655	ID:1	X: -11201; Y: -32097
+04:08.655	ID:2	Was it broadcasted? false
+04:08.655	ID:1	WHERE IS BILLY?!?!
+04:08.656	ID:2	ACK is NOT received
+04:09.154	ID:4	Creatng a child's data
+04:09.156	ID:4	Node 4 is trying to send INFO to node 3
+04:09.157	ID:4	Payload
+04:09.158	ID:4	X: -15508
+04:09.159	ID:4	Y: 3234
+04:09.159	ID:4	Status: 20
+04:09.163	ID:4	Packet is sent
+04:09.163	ID:3	Received a message from a child
+04:09.164	ID:4	Was it broadcasted? false
+04:09.165	ID:3	Was it broadcasted? false
+04:09.165	ID:3	Payload
+04:09.165	ID:4	ACK is received
+04:09.166	ID:3	X: -15508
+04:09.167	ID:3	Y: 3234
+04:09.167	ID:3	Status: WALKING
+04:18.399	ID:2	Creatng a child's data
+04:18.401	ID:2	Node 2 is trying to send INFO to node 1
+04:18.402	ID:2	Payload
+04:18.403	ID:2	X: -9051
+04:18.404	ID:2	Y: -2286
+04:18.405	ID:2	Status: 40
+04:18.417	ID:2	Packet is sent
+04:18.418	ID:2	Was it broadcasted? false
+04:18.419	ID:2	ACK is NOT received
+04:18.919	ID:4	Creatng a child's data
+04:18.921	ID:4	Node 4 is trying to send INFO to node 3
+04:18.923	ID:4	Payload
+04:18.923	ID:4	X: 6761
+04:18.924	ID:4	Y: -3809
+04:18.925	ID:4	Status: 20
+04:18.933	ID:4	Packet is sent
+04:18.934	ID:3	Received a message from a child
+04:18.935	ID:4	Was it broadcasted? false
+04:18.935	ID:3	Was it broadcasted? false
+04:18.935	ID:3	Payload
+04:18.935	ID:4	ACK is received
+04:18.936	ID:3	X: 6761
+04:18.937	ID:3	Y: -3809
+04:18.937	ID:3	Status: WALKING
+04:28.164	ID:2	Creatng a child's data
+04:28.166	ID:2	Node 2 is trying to send INFO to node 1
+04:28.168	ID:2	Payload
+04:28.169	ID:2	X: 9764
+04:28.170	ID:2	Y: 8189
+04:28.171	ID:2	Status: 20
+04:28.178	ID:2	Packet is sent
+04:28.179	ID:2	Was it broadcasted? false
+04:28.180	ID:2	ACK is NOT received
+04:28.685	ID:4	Creatng a child's data
+04:28.687	ID:4	Node 4 is trying to send INFO to node 3
+04:28.688	ID:4	Payload
+04:28.689	ID:4	X: -27417
+04:28.690	ID:4	Y: -8196
+04:28.691	ID:4	Status: 30
+04:28.699	ID:4	Packet is sent
+04:28.699	ID:3	Received a message from a child
+04:28.700	ID:4	Was it broadcasted? false
+04:28.700	ID:3	Was it broadcasted? false
+04:28.700	ID:3	Payload
+04:28.700	ID:4	ACK is received
+04:28.701	ID:3	X: -27417
+04:28.702	ID:3	Y: -8196
+04:28.703	ID:3	Status: RUNNING
+04:37.930	ID:2	Creatng a child's data
+04:37.932	ID:2	Node 2 is trying to send INFO to node 1
+04:37.933	ID:2	Payload
+04:37.934	ID:2	X: -2981
+04:37.935	ID:2	Y: -20147
+04:37.936	ID:2	Status: 30
+04:37.945	ID:2	Packet is sent
+04:37.945	ID:1	Received a message from a child
+04:37.946	ID:2	Was it broadcasted? false
+04:37.946	ID:1	Was it broadcasted? false
+04:37.946	ID:1	Payload
+04:37.947	ID:2	ACK is received
+04:37.947	ID:1	X: -2981
+04:37.948	ID:1	Y: -20147
+04:37.949	ID:1	Status: RUNNING
+04:38.450	ID:4	Creatng a child's data
+04:38.453	ID:4	Node 4 is trying to send INFO to node 3
+04:38.454	ID:4	Payload
+04:38.455	ID:4	X: -4968
+04:38.456	ID:4	Y: 10113
+04:38.456	ID:4	Status: 20
+04:38.461	ID:4	Packet is sent
+04:38.461	ID:3	Received a message from a child
+04:38.462	ID:4	Was it broadcasted? false
+04:38.463	ID:3	Was it broadcasted? false
+04:38.463	ID:3	Payload
+04:38.463	ID:4	ACK is received
+04:38.464	ID:3	X: -4968
+04:38.465	ID:3	Y: 10113
+04:38.465	ID:3	Status: WALKING
+04:47.696	ID:2	Creatng a child's data
+04:47.698	ID:2	Node 2 is trying to send INFO to node 1
+04:47.699	ID:2	Payload
+04:47.700	ID:2	X: -26895
+04:47.701	ID:2	Y: -14147
+04:47.702	ID:2	Status: 20
+04:47.706	ID:2	Packet is sent
+04:47.707	ID:1	Received a message from a child
+04:47.708	ID:2	Was it broadcasted? false
+04:47.708	ID:1	Was it broadcasted? false
+04:47.708	ID:1	Payload
+04:47.708	ID:2	ACK is received
+04:47.709	ID:1	X: -26895
+04:47.710	ID:1	Y: -14147
+04:47.710	ID:1	Status: WALKING
+04:48.216	ID:4	Creatng a child's data
+04:48.218	ID:4	Node 4 is trying to send INFO to node 3
+04:48.220	ID:4	Payload
+04:48.220	ID:4	X: -1134
+04:48.221	ID:4	Y: 20113
+04:48.222	ID:4	Status: 30
+04:48.230	ID:4	Packet is sent
+04:48.230	ID:3	Received a message from a child
+04:48.231	ID:4	Was it broadcasted? false
+04:48.232	ID:3	Was it broadcasted? false
+04:48.232	ID:3	Payload
+04:48.232	ID:4	ACK is received
+04:48.233	ID:3	X: -1134
+04:48.234	ID:3	Y: 20113
+04:48.234	ID:3	Status: RUNNING
+04:57.461	ID:2	Creatng a child's data
+04:57.463	ID:2	Node 2 is trying to send INFO to node 1
+04:57.465	ID:2	Payload
+04:57.465	ID:2	X: 3759
+04:57.466	ID:2	Y: 12106
+04:57.467	ID:2	Status: 30
+04:57.471	ID:2	Packet is sent
+04:57.471	ID:1	Received a message from a child
+04:57.472	ID:2	Was it broadcasted? false
+04:57.472	ID:1	Was it broadcasted? false
+04:57.473	ID:1	Payload
+04:57.473	ID:2	ACK is received
+04:57.474	ID:1	X: 3759
+04:57.474	ID:1	Y: 12106
+04:57.475	ID:1	Status: RUNNING
+04:57.982	ID:4	Creatng a child's data
+04:57.984	ID:4	Node 4 is trying to send INFO to node 3
+04:57.985	ID:4	Payload
+04:57.986	ID:4	X: 28111
+04:57.987	ID:4	Y: 20178
+04:57.988	ID:4	Status: 10
+04:57.996	ID:4	Packet is sent
+04:57.996	ID:3	Received a message from a child
+04:57.997	ID:4	Was it broadcasted? false
+04:57.997	ID:3	Was it broadcasted? false
+04:57.997	ID:3	Payload
+04:57.998	ID:4	ACK is received
+04:57.998	ID:3	X: 28111
+04:57.999	ID:3	Y: 20178
+04:58.000	ID:3	Status: STANDING
+05:07.227	ID:2	Creatng a child's data
+05:07.229	ID:2	Node 2 is trying to send INFO to node 1
+05:07.230	ID:2	Payload
+05:07.231	ID:2	X: 21293
+05:07.232	ID:2	Y: -9918
+05:07.233	ID:2	Status: 10
+05:07.243	ID:2	Packet is sent
+05:07.243	ID:1	Received a message from a child
+05:07.244	ID:2	Was it broadcasted? false
+05:07.244	ID:1	Was it broadcasted? false
+05:07.245	ID:1	Payload
+05:07.245	ID:2	ACK is received
+05:07.246	ID:1	X: 21293
+05:07.246	ID:1	Y: -9918
+05:07.247	ID:1	Status: STANDING
+05:07.747	ID:4	Creatng a child's data
+05:07.749	ID:4	Node 4 is trying to send INFO to node 3
+05:07.751	ID:4	Payload
+05:07.752	ID:4	X: 13644
+05:07.753	ID:4	Y: 5315
+05:07.754	ID:4	Status: 30
+05:07.756	ID:4	Packet is sent
+05:07.756	ID:3	Received a message from a child
+05:07.757	ID:4	Was it broadcasted? false
+05:07.757	ID:3	Was it broadcasted? false
+05:07.757	ID:3	Payload
+05:07.758	ID:4	ACK is received
+05:07.758	ID:3	X: 13644
+05:07.759	ID:3	Y: 5315
+05:07.760	ID:3	Status: RUNNING
